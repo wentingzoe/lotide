@@ -20,9 +20,3 @@ const assertEqual = function(actual, expected) {
     console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
   }
 };
-assertEqual([1, 2, 3], [1, 2, 3]);
-// if (arr === arr1.length) {
-//   console.log(`✅✅✅ Assertion Passed: ${arr1} === ${arr2} ✅✅✅ `);
-// } else {
-//   console.log(`🛑🛑🛑 Assertion Failed: ${arr1} !== ${arr2} 🛑🛑🛑 `);
-// }
