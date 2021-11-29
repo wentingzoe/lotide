@@ -13,6 +13,9 @@ const countOnly = function(allItems, itemsToCount) {
 	return newItems;
 };
 
+module.exports = countOnly;
+
+
 // Test the countOnly function
 const firstNames = [ 'Karl', 'Salima', 'Agouhanna', 'Fang', 'Kavith', 'Jason', 'Salima', 'Fang', 'Joe' ];
 

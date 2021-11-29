@@ -1,3 +1,4 @@
+const assertArraysEqual = require("./assertArraysEqual");
 const words = [ 'ground', 'control', 'to', 'major', 'tom' ];
 // map function
 const map = function(array, callback) {
@@ -8,32 +9,11 @@ const map = function(array, callback) {
 	return results;
 };
 
+module.exports = map;
+
 // course example
 const results1 = map(words, (word) => word[0]);
 console.log(`The first letter: ${results1}`);
-
-// assert Array Equal function
-const eqArrays = function(arr1, arr2) {
-	if (Array.isArray(arr1) && Array.isArray(arr2)) {
-		if (arr1.length === arr2.length) {
-			for (let i in arr1) {
-				if (arr1[i] !== arr2[i]) {
-					return false;
-				}
-			}
-			return true;
-		}
-	} else {
-		return false;
-	}
-};
-const assertArraysEqual = function(actual, expected) {
-	if (eqArrays(actual, expected)) {
-		console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
-	} else {
-		console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
-	}
-};
 
 // testing 1 ///
 const results2 = map(words, (word) => word.length > 4);
