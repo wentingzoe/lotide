@@ -39,7 +39,7 @@ The following functions are currently implemented:
 * `eqObjects`: function that compares two objects
 * `findKey`: function that scans the object and return the first key for which the callback returns a truthy value
 * `findKeyByValue`: function that searches for a key on an object where its value matches a given value
-* ` flatten`: function that given an array with other arrays inside, it can flatten it into a single-level array
+* `flatten`: function that given an array with other arrays inside, it can flatten it into a single-level array
 * `head`: function that retrieves the first element from the array
 * `index`: list of all the functions in an object
 * `letterPositions`: function that returns all the indices in the string where each character is found
