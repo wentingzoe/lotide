@@ -9,9 +9,7 @@ const flatten = function(array) {
       flattenArr.push(arr);
     }
   });
-
   return flattenArr;
-  
 };
 
 module.exports = flatten;

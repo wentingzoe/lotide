@@ -7,14 +7,14 @@ const eqObjects         = require('./eqObjects');
 const assertEqual       = require('./assertEqual');    
 const assertObjectsEqual = require('./assertObjectsEqual');
 const eqArrays          = require('./eqArrays');    
-const countLetter       = require('./countLetter'); // TODO  
-const map               = require('./map');// TODO          
-const takeUntil         = require('./takeUntil');// TODO
-const countOnly         = require('./countOnly'); // TODO   
-const findKey           = require('./findKey'); // TODO
-const findKeyByValue    = require('./findKeyByValue'); //TODO
-const letterPositions   = require('./letterPositions'); // TODO
-const without           = require('./without');// TODO
+const countLetter       = require('./countLetter');   
+const map               = require('./map');          
+const takeUntil         = require('./takeUntil');
+const countOnly         = require('./countOnly');    
+const findKey           = require('./findKey'); 
+const findKeyByValue    = require('./findKeyByValue'); 
+const letterPositions   = require('./letterPositions'); 
+const without           = require('./without');
 
 module.exports = {
   assertArraysEqual, 

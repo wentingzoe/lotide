@@ -1,5 +1,5 @@
 const assert = require('chai').assert;
-const tail   = require('../flatten.js');
+const flatten   = require('../flatten.js');
 
 describe("#flatten", () => {
   it("should return [1, 2, 3] for [1, 2, 3]", () => {
